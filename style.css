@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(73, 43, 43);
+}
+/* --------------------------------------------- */
+#Home {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 800px;
+    background-color: white;
+}
+#Photo {
+    display: flex;
+    background-image: url("/img/BT.png");
+    width: 50%;
+    height: 100%;
+}
+#Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #EFEFEF;
+}
+#Title > p {
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'Mansalva', cursive;
+}
+#Title > h1 {
+    margin: 0px;
+    font-family: 'Nerko One', cursive;
+    font-size: 150px;
+}
+/* --------------------------------------------- */
+#About {
+    display: flex;
+    width: 90%;
+    height: 800px;
+    background-color: black;
+}
+#NameAbout {
+    width: 50%;
+    height: 100%;
+}
+#Description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    text-align: justify;
+}
+#Description > p {
+    margin: 0px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+/* --------------------------------------------- */
+#Parents {
+    display: flex;
+    width: 90%;
+    height: 800px;
+    background-color: yellow;
+}
+/* --------------------------------------------- */
+#Contacts {
+    display: flex;
+    width: 90%;
+    height: 800px;
+    background-color: rgb(113, 150, 113);
+}
+/* --------------------------------------------- */
