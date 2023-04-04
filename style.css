@@ -9,6 +9,9 @@ body {
     margin: 0px;
     padding: 0px;
 }
+h1 {
+    margin: 0px;
+}
 #mainContainer {
     display: flex;
     flex-direction: column;
@@ -93,9 +96,54 @@ body {
 /* --------------------------------------------- */
 #Parents {
     display: flex;
+    flex-direction: row;
     width: 90%;
     height: 800px;
     background-color: yellow;
+}
+#Linhagem {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 10%;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nerko One', cursive;
+    font-size: 30px;
+    color: black;
+    margin: 0px;
+}
+#Julius {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+}
+#PhotoJuliusPequena {
+    display: flex;
+    width: 30%;
+    height: 40%;
+    background-image: url("/img/JuliusBB.png");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 3px 3px 14px 2px;
+    margin: 0% 0% 0% 5%;
+}
+#ParentButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    height: 100%;
+    margin: 5%;
+}
+#Complete {
+    display: flex;
+    width: 50%;
+    height: 100%;
+
 }
 /* --------------------------------------------- */
 #Contacts {
@@ -105,3 +153,23 @@ body {
     background-color: rgb(113, 150, 113);
 }
 /* --------------------------------------------- */
+.button {
+    background-color: Black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: Black;
+  }
