@@ -6,6 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: aqua;
+    margin: 0px;
+    padding: 0px;
 }
 #mainContainer {
     display: flex;
@@ -22,13 +24,16 @@ body {
     flex-direction: row;
     width: 90%;
     height: 800px;
-    background-color: white;
+    background-color: #EFEFEF;
 }
 #Photo {
     display: flex;
-    background-image: url("/img/BT.png");
+    background-image: url("/img/BT2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 50%;
     height: 100%;
+    background-color: #EFEFEF;
 }
 #Title {
     display: flex;
@@ -52,13 +57,24 @@ body {
 /* --------------------------------------------- */
 #About {
     display: flex;
+    flex-direction: row;
     width: 90%;
     height: 800px;
     background-color: black;
+    margin: 0px;
 }
 #NameAbout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     width: 50%;
-    height: 100%;
+    height: 50%;
+}
+#NameAbout > h1 {
+    margin: 20% 0% 0% 0%;
+    font-family: 'Nerko One', cursive;
+    font-size: 60px;
+    color: White;
 }
 #Description {
     display: flex;
