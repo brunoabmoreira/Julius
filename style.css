@@ -2,12 +2,129 @@
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     display: flex;
     flex-direction: column;
     background-color: aqua;
     margin: 0px;
     padding: 0px;
+}
+#botoes {
+    margin: 30% 0% 0% 0%;
+    display: flex;
+    flex-direction: row;
+}
+#botoes2 {
+    margin: 0% 0% 10% 0%;
+    display: flex;
+    flex-direction: row;
+}
+#botoes3 {
+    margin: 0% 0% 0% 5%;
+    display: flex;
+    flex-direction: row;
+}
+#botoes4 {
+    margin: 0% 0% 0% 5%;
+    display: flex;
+    flex-direction: row;
+}
+#botao {
+    display: flex;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+#botao2 {
+    display: flex;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+}
+#botao3 {
+    display: flex;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border: 1px solid #e0e4ce;
+    background-color: #e0e4ce;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+}
+#botao3 {
+    display: flex;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border: 1px solid #e0e4ce;
+    background-color: #e0e4ce;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+}
+#botao4 {
+    display: flex;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border: 1px solid #2d3839;
+    background-color: #2d3839;
+    color: White;
+    font-family: 'Abel', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+}
+#botao:hover {
+    transition: 1s;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+#botao2:hover {
+    transition: 1s;
+    border: 1px solid black;
+    background-color: black;
+    color: #6e9987;
+}
+#botao3:hover {
+    transition: 1s;
+    border: 1px solid #e0e4ce;
+    background-color: #e0e4ce;
+    color: #6e9987;
+}
+#botao4:hover {
+    transition: 1s;
+    border: 1px solid #2d3839;
+    background-color: #2d3839;
+    color: #6e9987;
 }
 h1 {
     margin: 0px;
@@ -81,6 +198,7 @@ h1 {
 }
 #Description {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 40%;
@@ -96,10 +214,10 @@ h1 {
 /* --------------------------------------------- */
 #Linhagem {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 90%;
     height: 10%;
-    background-color: rgb(219, 219, 119);;
+    background-color: #e0e4ce;
     align-items: center;
     justify-content: center;
     font-family: 'Nerko One', cursive;
@@ -112,7 +230,7 @@ h1 {
     flex-direction: row;
     width: 90%;
     height: 800px;
-    background-color: rgb(219, 219, 119);
+    background-color: #e0e4ce;
 }
 .caes {
     display: flex;
@@ -309,9 +427,38 @@ h1 {
 /* --------------------------------------------- */
 #Contacts {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 90%;
-    height: 800px;
-    background-color: rgb(113, 150, 113);
+    height: 100%;
+    text-align: justify;
+    background-color: #2d3839;
+}
+#Padrao {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 10%;
+    background-color: #2d3839;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nerko One', cursive;
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+}
+#Contacts > p {
+    margin: 0% 10% 0% 10%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+#Contacts > h1 {
+    margin: 5% 0% 0% 0%;
+    font-size: 30px;
+    color: white;
+    font-family: 'Abel', sans-serif;
 }
 /* --------------------------------------------- */
 .button {
